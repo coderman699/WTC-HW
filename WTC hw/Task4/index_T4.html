@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container-wrapper">
+
+        <div class="score-card">
+
+            <h1>Student Scores</h1>
+
+            <div id="scoreList" class="score-list"></div>
+
+            <div class="summary">
+                Highest: <span id="highestScore">0</span>
+                |
+                Lowest: <span id="lowestScore">0</span>
+                |
+                Average: <span id="averageScore">0</span>
+            </div>
+
+            <div class="input-group">
+                <input type="number" id="scoreInput" placeholder="New score" min="0" max="100">
+
+                <button id="addBtn">Add score</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

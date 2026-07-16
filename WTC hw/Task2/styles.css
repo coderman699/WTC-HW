@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grade-card{
+    width: 380px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.grade-card h1{
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.input-group{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    flex: 1;
+    padding: 13px;
+    font-size: 18px;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+}
+
+button{
+    padding: 13px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.grade-a {
+    background-color: green;
+    color: white;
+}
+
+.grade-b {
+    background-color: green;
+    color: white;
+}
+
+.grade-c {
+    background-color: yellow;
+    color: white;
+}
+
+.grade-d {
+    background-color: orange;
+    color: white;
+}
+
+.grade-e {
+    background-color: brown;
+    color: white;
+}
+
+.grade-f {
+    background-color: red;
+    color: white;
+}
+
+.error {
+    background-color: #fee2e2;
+    color: #b91c1c;
+}
